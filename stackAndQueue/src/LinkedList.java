@@ -94,7 +94,7 @@ public class LinkedList<E> {
         return get(size - 1);
     }
 
-    // 修改链表的第index（0-based）个位置的元素
+    // 获取链表的第index（0-based）个位置的元素
     // 在链表中不是一个常用的操作，练习用
     public void set(int index, E e) {
         if(index < 0 || index >= size) {
@@ -122,7 +122,7 @@ public class LinkedList<E> {
         return false;
     }
 
-    // 删除链表的第index（0-based）个位置的元素
+    // 获取链表的第index（0-based）个位置的元素
     // 在链表中不是一个常用的操作，练习用
     public E remove(int index) {
         if(index < 0 || index >= size) {
